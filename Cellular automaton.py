@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-n = 18  # правило
-s = 300  # ширина
-d = 110  # длина
+n = 18  # rule
+s = 300  # width
+d = 110  # length
 rule = np.array(list(map(int, np.binary_repr(n, 8))))[::-1]
 
 f = np.zeros((d, s), dtype=int)
